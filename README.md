@@ -1,3 +1,11 @@
+# Tempature display react project
+
+Small temp display showing temprature from an API that is a separate repo in my profile
+
+## Shortcomings
+
+- Currently cant show a good history of temperature
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
