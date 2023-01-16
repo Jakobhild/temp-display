@@ -5,12 +5,12 @@ import Log from './Log.js'
 
 function App(){
   const [ app, setApp ] = useState(true)
-  const [ ip, setIp] = useState("192.168.1.204:5000")
+  const [ ip, setIp] = useState("[IP-adress]:5000")
   const [ name, setName ] = useState("Jakobs rum")
 
   return (<>
   <button style={{margin: "3px", backgroundColor: "#03a9F4", height: "30px", color: "white", border: "transparent", borderRadius: "10px"}}
-    onClick={() => {setIp('http://192.168.1.203:5000'); setName('Jakobs rum')}}>Jakobs rum</button>
+    onClick={() => {setIp('http://[IP-adress]:5000'); setName('Jakobs rum')}}>Jakobs rum</button>
   <div className="App">
   <header className="App-header">
   <button style={{margin: "3px", backgroundColor: "#03a9F4", height: "30px", color: "white", border: "transparent", borderRadius: "10px"}} 
